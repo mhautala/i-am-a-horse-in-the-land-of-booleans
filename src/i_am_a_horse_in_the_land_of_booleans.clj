@@ -27,12 +27,6 @@
 (defn not-teen? [age]
   (not (teen? age)))
 
-; Write a function (generic-doublificate x) that takes one argument and
-
-; doubles it if it is a number,
-; returns nil if it is an empty collection,
-; if it is a list or a vector, returns two times the length of it
-; returns true otherwise.
 
 (defn generic-doublificate [x]
   (cond
